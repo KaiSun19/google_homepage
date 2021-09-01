@@ -1,0 +1,150 @@
+#voice {
+    height:15px ;
+}
+
+#search-icon {
+    height:15px ;
+}
+
+#green_icon {
+    margin-right: 6px;
+    height: 14px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li a {
+    color: #000;
+    display: block;
+    text-align: center;
+    margin: 10px 30px;
+    text-decoration: none;
+    font-size:14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,.54);
+  }
+
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.buttons{
+    margin: auto;
+    margin-left:36%;
+    margin-top: 2%;
+    margin-bottom:2%
+}
+
+button {
+    background-color: #f5f5f5;
+    border:none;
+    color:#707070;
+    font-size:15px;
+    margin:5px 0px 0px 5px;
+    border-radius:10px;
+    outline:none;
+}
+
+button a {
+    color: #000;
+    display: block;
+    text-align: center;
+    margin: 10px 30px;
+    text-decoration: none;
+    font-size:14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,.54);
+  }
+
+button a:hover{
+    text-decoration: underline;
+}
+button:hover{
+    background-color: #e3e3e3;
+}
+
+.appsGrid {
+    height:30px;
+    position:relative;
+    bottom:4px;
+}
+
+img.appsGrid:hover {
+    height:35px;
+
+}
+
+
+.account { 
+
+    height:30px;
+    position:relative;
+    bottom:4px;
+    border-radius: 10px;
+
+} 
+
+img.account:hover{
+    border: 2px solid rgb(255, 145, 2);
+}
+
+#logo {
+    display:block;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    width: 22%;
+}
+
+.bar {
+    display:block;
+    margin: auto;
+    width: 50%;
+    margin-left: 22%;
+    border-radius: 30px;
+    border:1px solid #dcdcdc;
+}
+
+.searchbar{
+    border:none;
+    width: 90%;
+    font-size:16px;
+    margin-left: 2%;
+    outline: none;
+    height: 30px;
+  }
+
+
+.bar:hover{
+    box-shadow: 5px 10px 18px #888888;
+}
+
+
+footer {
+    position: fixed;
+    background: #f2f2f2;
+    bottom: 0;
+    width: 100%;
+}
+
+.location {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+#green_text {
+    margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
